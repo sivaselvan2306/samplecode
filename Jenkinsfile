@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    environment {
-       
-    }
+  
     stages {
         stage('Destroy Infrastructure') {
             steps {
